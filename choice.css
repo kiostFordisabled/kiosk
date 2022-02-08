@@ -1,0 +1,39 @@
+body{
+    background-color: #004711;
+}
+
+.haed_image{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 50px;
+    width: 100%;
+    border: none;
+}
+
+.center_word{
+    font-size: 30px;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 25px 0px 30px 0px;
+}
+
+.col_choice{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 50px;
+}
+
+.col_choice_div{
+    margin: 30px;
+}
+
+.where_to_eat{
+    margin: 15px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}

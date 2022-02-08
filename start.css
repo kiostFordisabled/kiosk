@@ -1,0 +1,31 @@
+.start_head{
+    text-align: center;
+    display: block;
+    background-color: #fafafa;
+    padding: 15px 0px;
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-top: -15px;
+}
+
+.col_choice{
+    display: flex;
+    justify-content: center;
+    padding: 5px 3px;
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#Disable{
+    justify-content: center;
+    display: flex;
+    margin: 150px;
+    font-size: 50px;
+}
+#Normal{
+    justify-content: center;
+    display: flex;
+    margin: 150px;
+    font-size: 50px;
+}

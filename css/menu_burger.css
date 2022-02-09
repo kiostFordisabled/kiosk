@@ -1,6 +1,8 @@
 #topMenu {
-    display: flex;
     justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100px;
 }
 
 #topMenu ul li {
@@ -8,7 +10,7 @@
     color: white;
     background-color: #2d2d2d;
     float: left;
-    line-height: 100px;
+    line-height: 150px;
     vertical-align: middle;
     text-align: center;
 }
@@ -18,13 +20,34 @@
     color: white;
     display: block;
     width: 200px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
-
 }
 
 #topMenu .menuLink:hover {
     color: red;
     background-color: #4d4d4d;
+}
+
+.menu{
+    justify-content: center;
+    display: block;
+    margin: 30px;
+}
+
+.buger_menu{
+    justify-content: center;
+    display: flex;
+    margin: 50px;
+}
+
+.buger{
+    margin: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+.buger_name{
+    font-size: 20px;
 }
 
